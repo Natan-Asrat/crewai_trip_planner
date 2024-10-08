@@ -40,7 +40,9 @@ The journey begins with the user entering their travel preferences: origin as "E
 
 
 ## Final Output
-The system concludes with a detailed travel plan for Hawasa, Ethiopia, including a 7-day itinerary, city guide, and cost estimate. The final answer is presented in the final_answer.JPG screenshot, summarizing the travel plan and confirming the total cost of approximately $1330 for accommodation, meals, and activities.
+The system concludes with a detailed travel plan for Hawasa, Ethiopia, including a 7-day itinerary, city guide, and cost estimate. 
+
+![answer](./screenshots/final_answer.JPG)
 
 ## Safety Tips
 Throughout the planning process, the system emphasizes safety tips to ensure travelers have a secure and enjoyable experience.
