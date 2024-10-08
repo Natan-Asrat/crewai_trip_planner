@@ -1,0 +1,28 @@
+[tool.poetry]
+name="trip-planner"
+version="0.1.0"
+description="Simple ai trip planner"
+authors=["Jaoa Mouaram, Natan"]
+
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+crewai="0.1.24"
+unstructured="==0.10.25"
+pyowm = "3.3.0"
+tools = "^0.1.9"
+python-dotenv = "1.0.0"
+langchain-groq= "<0.2.0"
+
+
+[tool.pyright]
+useLibraryCodeForTypes = true
+exclude=[".cache"]
+
+[tool.ruff]
+select = ["E", "W", "F", "I", "B", "C4", "ARG", "SIM"]
+ignore = ["W291", "W292", "W293"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend="poetry.core.masonry.api"
