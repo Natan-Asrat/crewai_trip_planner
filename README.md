@@ -24,25 +24,27 @@ The journey begins with the user entering their travel preferences: origin as "E
 ![input](./screenshots/input.JPG)
 
 ## Task Execution
-1. **Planning the Itinerary**: The Expert Travel Agent kicks off the task of planning a 7-day itinerary. The agent uses internet search tools to gather weather forecasts ![weather_forecast](./screenshots/weather_forecast.JPG), find hotels ![hotels](./screenshots/find_hotels.JPG), and locate restaurants ![restaurants](./screenshots/find_restaurants.JPG). Despite encountering an error in the initial budget calculation, the agent successfully recalculates the budget and provides a detailed itinerary from Day 1 to Day 7 . 
+1. **Planning the Itinerary**: The Expert Travel Agent kicks off the task of planning a 7-day itinerary. The agent uses internet search tools to gather weather forecasts ![weather_forecast](./screenshots/weather_forecast.JPG), find hotels ![hotels](./screenshots/find_hotels.JPG), and locate restaurants ![restaurants](./screenshots/find_restaurants.JPG) Despite encountering an error in the initial budget calculation, the agent successfully recalculates the budget and provides a detailed itinerary from Day 1 to Day 7 . 
 
     Error:
     ![error](./screenshots/error%20calculation.JPG)
     Correct:
     ![correct](./screenshots/correct_calculation.JPG)
     Calculation:
+
     ![day_1_to4](./screenshots/day_1_to4.JPG)  ![day5](./screenshots/day_5_to_7.JPG).
 
-2. **City Selection**: The City Selection Expert evaluates Hawasa as the best city for the trip. The agent analyzes weather conditions, seasonal events ![events](./screenshots/find_events.JPG), and flight costs, ultimately confirming Hawasa as the ideal destination ![select cities](./screenshots/city_selection_agent.JPG).
+2. **City Selection**: The City Selection Expert evaluates Hawasa as the best city for the trip. The agent analyzes weather conditions, seasonal events ![events](./screenshots/find_events.JPG), and flight costs, ultimately confirming Hawasa as the ideal destination ![select cities](./screenshots/city_selection_agent.JPG)
 
-3. **Gathering City Information**: The Local Tour Guide compiles an in-depth city guide, highlighting key attractions, local customs, and special events. ![attractions](./screenshots/find_attractions.JPG) The guide provides a comprehensive overview of what Hawasa has to offer, ensuring travelers have a rich cultural experience ![tour](/screenshots/local_tour_guid.JPG).
+3. **Gathering City Information**: The Local Tour Guide compiles an in-depth city guide, highlighting key attractions, local customs, and special events. ![attractions](./screenshots/find_attractions.JPG) The guide provides a comprehensive overview of what Hawasa has to offer, ensuring travelers have a rich cultural experience ![tour](/screenshots/local_tour_guid.JPG)
 
 
 ## Final Output
 The system concludes with a detailed travel plan for Hawasa, Ethiopia, including a 7-day itinerary, city guide, and cost estimate. The final answer is presented in the final_answer.JPG screenshot, summarizing the travel plan and confirming the total cost of approximately $1330 for accommodation, meals, and activities.
 
 ## Safety Tips
-Throughout the planning process, the system emphasizes safety tips ![tips](./screenshots/safety_tips.JPG) to ensure travelers have a secure and enjoyable experience.
+Throughout the planning process, the system emphasizes safety tips to ensure travelers have a secure and enjoyable experience.
+![tips](./screenshots/safety_tips.JPG) 
 
 ## Conclusion
 The Crew AI Travel Planning System successfully demonstrates its ability to create a comprehensive travel plan by leveraging custom agents and tasks. Through collaboration and efficient use of tools, the system provides travelers with a detailed itinerary, city guide, and cost estimate, ensuring a memorable trip to Hawasa, Ethiopia.
