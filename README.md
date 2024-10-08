@@ -46,9 +46,6 @@ The system concludes with a detailed travel plan for Hawasa, Ethiopia, including
 Throughout the planning process, the system emphasizes safety tips to ensure travelers have a secure and enjoyable experience.
 ![tips](./screenshots/safety_tips.JPG) 
 
-## Conclusion
-The Crew AI Travel Planning System successfully demonstrates its ability to create a comprehensive travel plan by leveraging custom agents and tasks. Through collaboration and efficient use of tools, the system provides travelers with a detailed itinerary, city guide, and cost estimate, ensuring a memorable trip to Hawasa, Ethiopia.
-
 
 # Setup
 - Install poetry:  `pip i poetry`
